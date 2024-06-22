@@ -1,0 +1,7 @@
+flowers/
+Test/
+Train/
+Validate/
+*.zip
+*.h5
+model.py
