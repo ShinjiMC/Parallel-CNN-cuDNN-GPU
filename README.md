@@ -100,9 +100,17 @@ The linear graphs show the progression of both accuracy and loss metrics during 
 
 ### Testing Your Trained Model
 
-To test the trained model, execute `test.py`. This script will randomly select an image from the test folder and display the model's prediction alongside the actual result. The results will be stored in a folder along with the generated image.
+To test the trained model, execute `gui.py`. This script will randomly select an image from the test folder or you can select your own file and display the model's prediction alongside the actual result. The results you can view in the GUI with QT.
 
-![Example Test Result](.Captures/test_1.png)
+![Example Test Result](.Captures/gui_view.png)
+
+### Testing Confidence
+
+You can test the model using `test.py`, which executes tests and validates the number of correct and incorrect predictions. This allows us to assess the confidence of the trained model.
+
+The model achieved an accuracy of 85.01%, correctly predicting 6944 out of 8168 test samples, with 1224 incorrect predictions.
+
+![Confidence Result](.Captures/test_1.png)
 
 ## License:
 
